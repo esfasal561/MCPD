@@ -1,3 +1,9 @@
+---
+title: "MCPD – Magnetically Captured Plasma Drive"
+description: "Il Magnetically Captured Plasma Drive (MCPD) è un concetto originale di propulsione spaziale che cattura il plasma interplanetario invece di trasportarlo a bordo. Architettura ibrida NTR + MHD, intake magnetico HTS, theta‑pinch e ugello magnetico."
+keywords: "MCPD, Magnetically Captured Plasma Drive, ambient plasma propulsion, hybrid nuclear plasma drive, magnetic plasma intake, theta-pinch propulsion, interplanetary plasma engine, MHD propulsion, MPD thruster alternative"
+author: "Salvatore"
+---
 # MCPD – Magnetically Captured Plasma Drive
 ## Open Research Project
 
