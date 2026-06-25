@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://esfasal561.github.io/MCPD/sitemap.xml
