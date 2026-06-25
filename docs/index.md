@@ -1,4 +1,4 @@
-<meta name="google-site-verification" content="xywuLRLSdc8NPs
+
 <style>
 body {
   margin: 0;
