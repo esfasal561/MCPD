@@ -1,4 +1,5 @@
 # MCPD – Technical Bibliography
+- [Propulsion Modules Index](INDEX_PROPULSION_MODULES.md)
 
 ## Magnetic Nozzles & Plasma Detachment
 - Ahedo, E., “Plasma Detachment in Magnetic Nozzles,” *Physics of Plasmas*, 2011.
