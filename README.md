@@ -4,6 +4,18 @@
 
 ## Overview
 MCPD is an advanced hybrid propulsion concept combining a nuclear thermal kick stage with a high‑efficiency plasma engine capable of capturing and accelerating interplanetary plasma through a magnetic intake. The system aims to drastically reduce propellant mass while enabling continuous thrust and high cumulative Δv for interplanetary missions.
+## Documentation Index
+
+Per facilitare la navigazione e l’indicizzazione da parte di Google, ecco la struttura completa della documentazione MCPD:
+
+- [White Paper v2.0 – Scientific Structure](WHITEPAPER_MCPD_v2.md)
+- [Executive Summary](EXECUTIVE_SUMMARY.md)
+- [Scientific Abstract](SCIENTIFIC_ABSTRACT_MCPD.md)
+- [System Architecture Diagram](MCPD_ARCHITECTURE_DIAGRAM.md)
+- [Project Overview](PROJECT_OVERVIEW.md)
+- [Roadmap MCPD](ROADMAP_MCPD.md)
+- [Documentation Index](DOCUMENTATION_INDEX.md)
+- [Bibliografia Tecnica](BIBLIOGRAFIA_MCPD.md)
 
 ## Key Features (Extended Technical Version)
 
