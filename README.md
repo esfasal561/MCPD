@@ -1,20 +1,143 @@
+
 # MCPD – Hybrid Nuclear–Plasma Propulsion Concept
 *(Magnetically Captured Plasma Drive)*
 
 ## Overview
 MCPD is an advanced hybrid propulsion concept combining a nuclear thermal kick stage with a high‑efficiency plasma engine capable of capturing and accelerating interplanetary plasma through a magnetic intake. The system aims to drastically reduce propellant mass while enabling continuous thrust and high cumulative Δv for interplanetary missions.
 
-## Key Features
-- Hybrid architecture: Nuclear Thermal Rocket (NTR) + Plasma Drive  
-- Magnetic Plasma Intake (MPI) using HTS superconductors  
-- Toroidal confinement chamber with magnetic mirror stabilization  
-- RF heating (ECRH/ICRH) and theta‑pinch acceleration  
-- Magnetic nozzle with controlled plasma detachment  
-- Estimated Isp: ~5,000 s  
-- Continuous thrust: 25–50 N per unit  
-- Cumulative Δv: 10–15 km/s in 60–90 days  
-- Earth–Mars transfer estimate: 3–5 months
-- ## System Architecture – MCPD Operational Sequence
+## Key Features (Extended Technical Version)
+
+Il sistema MCPD integra una serie di sottosistemi avanzati che operano in modo coordinato per catturare, confinare, energizzare, comprimere ed espellere plasma interplanetario, generando spinta continua ad alta efficienza.  
+Questa sezione descrive in dettaglio ogni componente chiave dell’architettura.
+
+## 1. Hybrid Architecture: NTR Kick Stage + MCPD Plasma Drive
+
+### Nuclear Thermal Rocket (NTR) – Kick Stage
+- Fornisce la spinta iniziale (2–3 km/s).  
+- Permette di uscire dalla gravità terrestre con elevata efficienza.  
+- Stabilizza la traiettoria prima dell’attivazione del plasma drive.
+
+### MCPD – Magnetically Captured Plasma Drive
+- Motore principale per la crociera interplanetaria.  
+- Funziona senza propellente tradizionale.  
+- Utilizza plasma interplanetario catturato magneticamente.  
+- Produce spinta continua e cumulativa.
+
+## 2. Magnetic Plasma Intake (MPI) – Funnel Magnetico HTS
+
+Sistema di cattura del plasma basato su **superconduttori HTS**.
+
+### Funzioni principali
+- Genera un campo magnetico a geometria variabile.  
+- Crea un imbuto magnetico con ampia apertura frontale.  
+- Guida gli ioni verso il “collo” di cattura.  
+- Aumenta la densità del plasma da 1× a 10–100×.
+
+### Caratteristiche avanzate
+- Apertura dinamica del funnel.  
+- Controllo del gradiente magnetico.  
+- Riduzione delle perdite laterali.  
+- Stabilizzazione del flusso tramite sensori MHD.
+
+## 3. Toroidal Confinement Chamber (PCC) – Confinamento + Stabilizzazione MHD
+
+Camera toroidale simile a un mini‑tokamak.
+
+### Funzioni
+- Confinare il plasma catturato.  
+- Stabilizzare instabilità MHD (kink, sausage, drift).  
+- Preparare il plasma al riscaldamento RF.  
+- Mantenere pressione magnetica costante.
+
+### Tecnologie
+- Bobine toroidali e poloidali.  
+- Controllo attivo del campo.  
+- Feedback tramite sensori Hall e interferometria.
+
+## 4. RF Heating & Acceleration (PHA) – ECRH/ICRH
+
+Sistema di riscaldamento ad onde radio ad alta frequenza.
+
+### Funzioni
+- Riscaldare elettroni e ioni.  
+- Portare il plasma a decine/centinaia di eV.  
+- Uniformare la distribuzione energetica.  
+- Preparare il plasma al pinch impulsivo.
+
+### Tecnologie
+- ECRH (Electron Cyclotron Resonance Heating).  
+- ICRH (Ion Cyclotron Resonance Heating).  
+- Antenne direzionali a fase controllata.
+
+## 5. CPCS – Capacitive Pulse Compression System (Theta‑Pinch)
+
+Il cuore pulsante del MCPD.
+
+### Funzioni
+- Caricare un banco di condensatori.  
+- Comprimere la scarica in un impulso brevissimo (microsecondi).  
+- Inviare un picco di corrente nella bobina theta‑pinch.  
+- Generare un rapidissimo aumento del campo magnetico (dB/dt elevatissimo).  
+- Comprimere il plasma radialmente → enorme aumento di pressione e temperatura.
+
+### Caratteristiche
+- Frequenza dei cicli regolabile.  
+- Energia impulsiva modulabile.  
+- Sincronizzazione con il flusso del plasma.
+
+## 6. Magnetic Nozzle Assembly (MNA) – Ugello Magnetico Divergente
+
+Sistema di espulsione del plasma compresso.
+
+### Funzioni
+- Convertire energia termica + magnetica in velocità di getto.  
+- Espellere il plasma lungo linee di campo divergenti.  
+- Generare spinta lineare continua.  
+- Variare il vettore di spinta.
+
+### Tecnologie
+- Ugello magnetico a divergenza variabile.  
+- Controllo del detachment (distacco controllato del plasma).  
+- Bobine di shaping per stabilizzare il flusso.
+
+## 7. Pulsed‑Continuous Hybrid Thrust System
+
+Il MCPD è un sistema **ibrido pulsato‑continuo**.
+
+### Come funziona
+- Ogni ciclo di pinch produce un impulso di spinta.  
+- L’alta frequenza dei cicli (kHz) crea un flusso quasi‑continuo.  
+- La spinta è modulabile variando:
+  - frequenza dei pinch  
+  - energia dell’impulso  
+  - apertura dell’ugello  
+  - intensità del campo magnetico  
+
+## 8. Plasma Detachment Control – TORH (Terminal Open‑Field Release Hub)
+
+Sistema finale di distacco del plasma.
+
+### Funzioni
+- Garantire il corretto distacco del plasma dal campo magnetico.  
+- Evitare ricircoli o ri‑cattura del flusso.  
+- Ottimizzare la conversione energia → spinta.  
+- Stabilizzare il getto in uscita.
+
+### Tecnologie
+- Campo magnetico divergente controllato.  
+- Zone di transizione a gradiente ridotto.  
+- Sensori di flusso e temperatura.
+
+## 9. Estimated Performance
+
+- **Isp:** ~5.000 s  
+- **Spinta continua:** 25–50 N per unità  
+- **Δv cumulativo:** 10–15 km/s in 60–90 giorni  
+- **Transfer Earth–Mars:** 3–5 mesi  
+
+---
+
+## System Architecture – MCPD Operational Sequence
 
 Il sistema MCPD è composto da cinque moduli funzionali integrati, che operano in sequenza per catturare, confinare, energizzare, comprimere ed espellere plasma interplanetario al fine di generare spinta continua ad alta efficienza. Questa architettura modulare consente controllo fine, scalabilità e stabilità operativa.
 
@@ -81,6 +204,7 @@ Output: spinta lineare direzionata e controllabile.
 MPI → PCC → PHA → CPCS → MNA  
 Cattura → Confinamento → Riscaldamento → Pinch → Spinta
 
+---
 
 ## Mission Profile
 - **Initial Kick (NTR):** 2–3 km/s  
@@ -92,8 +216,4 @@ This repository collects all documentation related to the MCPD concept, includin
 - White paper  
 - Executive summary  
 - Technical diagrams  
-- Future simulations and updates  
-
-## Author
-**Salvatore**  
-Independent researcher and proponent of the MCPD concept.
+- Future simulations and updates
