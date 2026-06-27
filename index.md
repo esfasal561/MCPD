@@ -12,8 +12,8 @@
 ### 🚀 Architettura del Sistema
 - [System Architecture Diagram](MCPD_ARCHITECTURE_DIAGRAM.md)
 - [Propulsion Modules Index](INDEX_PROPULSION_MODULES.md)
-- [Magnetic Confinement System](MAGNETIC_CONFINEMENT.md)
-- [Plasma Dynamics & Exhaust Nozzle](PLASMA_DYNAMICS.md)
+-[Magnetic Confinement System](MAGNETIC_CONFINEMENT_SYSTEM.md)
+- [Plasma Dynamics & Exhaust Nozzle](PLASMA_DYNAMICS_EXHAUST_NOZZLE.md)
 
 ### 🔬 Fondamenti Scientifici
 - [Nuclear–Plasma Hybrid Model](NUCLEAR_PLASMA_MODEL.md)
