@@ -1,4 +1,4 @@
-## Navigazione rapida
+-## Navigazione rapida
 - [Propulsion Modules Index](INDEX_PROPULSION_MODULES.md)
 - [White Paper v2.0](WHITEPAPER_MCPD_v2.md)
 - [System Architecture Diagram](MCPD_ARCHITECTURE_DIAGRAM.md)
