@@ -1,7 +1,3 @@
-# MCPD – Magnetically Captured Plasma Drive
-
-Benvenuto nella documentazione ufficiale del progetto MCPD.
-
 ## Navigazione rapida
 - [Propulsion Modules Index](INDEX_PROPULSION_MODULES.md)
 - [White Paper v2.0](WHITEPAPER_MCPD_v2.md)
