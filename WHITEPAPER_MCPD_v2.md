@@ -117,10 +117,16 @@ L’introduzione del FM‑DYN abilita:
 - maggiore densità di plasma nella PCC,
 - miglioramento dell’efficienza complessiva del motore.
 
-</div>
+
+
+
+
+
+
+
+
 ---
 
-<div style="background:#0d0d0d; padding:25px; border-radius:10px; color:#e6e6e6;">
 
 ## 4.1.2 Geometria del Funnel Magnetico Dinamico (FM‑DYN)
 
@@ -171,12 +177,32 @@ Questa adattività rende il FM‑DYN superiore ai funnel magnetici tradizionali.
 - **Compatibilità con bobine HTS** e sistemi RMF.  
 - **Scalabilità** per versioni future del MCPD.
 
+---
+
 </div>
 
 ---
 
+### **Sintesi del Flusso**
+1. Le **RMF Coils** generano il campo rotante.  
+2. Il plasma esterno **induce correnti** che amplificano il campo.  
+3. Il funnel si **espande** e cattura più plasma.  
+4. La zona di convergenza **comprime** il flusso.  
+5. Il collo **stabilizza** e uniforma il plasma.  
+6. Il plasma viene trasferito alla **PCC**.
+
 ---
 
+### **Benefici dello Schema FM‑DYN**
+- Cattura più efficiente del plasma interplanetario.  
+- Riduzione delle perdite laterali.  
+- Stabilizzazione del flusso prima del confinamento.  
+- Riduzione della potenza richiesta alle bobine MPI.  
+- Migliore integrazione con PCC, PHA e CPCS.
+
+</div>
+
+---
 
 ### Plasma Confinement Chamber (PCC)
 Perché esiste: stabilizza il plasma catturato, che è turbolento e instabile.
