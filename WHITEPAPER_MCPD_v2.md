@@ -211,6 +211,47 @@ Principio tecnico:
 - Mini‑tokamak.  
 - Controllo MHD attivo.  
 - Pressione magnetica regolata.
+<div style="background:#0d0d0d; padding:25px; border-radius:10px; color:#e6e6e6;">
+
+## Schema Operativo PHA → CPCS
+
+### 1. Plasma dalla PCC
+- Plasma stabilizzato, turbolenza ridotta.  
+- Temperatura iniziale: pochi eV.  
+- Profilo di densità uniforme.
+
+---
+
+### 2. RF Heating Assembly (PHA)
+**Obiettivo:** portare il plasma a 50–300 eV.
+
+- ECRH → riscaldamento elettronico.  
+- ICRH → riscaldamento ionico.  
+- Uniformazione energetica.  
+- Riduzione instabilità MHD.
+
+**Output:** plasma caldo, stabile, pronto alla compressione impulsiva.
+
+---
+
+### 3. Capacitive Pulse Compression System (CPCS)
+**Obiettivo:** comprimere il plasma di 100–1000×.
+
+- Banco di condensatori HV.  
+- Pulse Compression Network (LC).  
+- Switch ad alta velocità (spark gap / thyristor).  
+- Pulse Forming Line (PFL).  
+- Theta‑Pinch Coil → altissimo dB/dt.
+
+**Output:** plasma super‑compresso, ad alta pressione.
+
+---
+
+### 4. Transfer to MNA
+- Il plasma compresso viene espulso nel Magnetic Nozzle Assembly.  
+- Inizio della conversione pressione → spinta.
+
+</div>
 
 ### RF Heating Assembly (PHA)
 Perché esiste: il plasma è troppo freddo, va riscaldato prima della compressione.
