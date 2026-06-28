@@ -1,8 +1,8 @@
 # PHA – RF Heating Assembly (ECRH/ICRH)
 ## Plasma Heating Assembly del MCPD
 
-Il Plasma Heating Assembly (PHA) è il modulo responsabile dell’aumento dell’energia termica del plasma confinato nel PCC.  
-Utilizza tecniche di riscaldamento RF (ECRH – Electron Cyclotron Resonance Heating) e ICRH (Ion Cyclotron Resonance Heating) per portare il plasma a un regime energetico utile al pinch magnetico nel CPCS.
+Il Plasma Heating Assembly (PHA) è il modulo che riscalda il plasma confinato nel PCC tramite tecniche RF ad alta efficienza (ECRH per gli elettroni, ICRH per gli ioni).  
+Il suo compito è portare il plasma a un regime energetico utile per la compressione magnetica nel CPCS.
 
 ---
 
@@ -48,7 +48,7 @@ E_{PHA} \propto v
 
 
 
-Quindi il PHA diventa **più efficace man mano che il veicolo accelera**, perché riscalda una quantità maggiore di plasma.
+Il PHA diventa quindi **più efficace man mano che il veicolo accelera**, perché riscalda una quantità maggiore di plasma.
 
 ---
 
@@ -87,5 +87,3 @@ PCC → PHA → CPCS
 
 Il PHA è il ponte energetico tra il confinamento (PCC) e la compressione (CPCS):  
 trasforma il plasma da “confinato” a “energeticamente attivo”, in modo coerente con il principio fondativo MCPD.
-
-
