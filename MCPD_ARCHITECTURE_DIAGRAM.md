@@ -1,4 +1,4 @@
-# MCPD Architecture Diagram (ASCII)
+# MCPD Architecture Diagram (v2.0 – with MSS)
 
                 ┌──────────────────────────────┐
                 │   Magnetic Plasma Intake     │
@@ -6,23 +6,29 @@
                 └──────────────┬──────────────┘
                                ▼
                 ┌──────────────────────────────┐
-                │ Plasma Confinement Chamber   │
-                │   (Toroidal + Mirror Field)  │
+                │ Plasma Confinement Core      │
+                │     (PCC – Tokamak)          │
                 └──────────────┬──────────────┘
                                ▼
                 ┌──────────────────────────────┐
                 │ Plasma Heating Assembly      │
-                │  ECRH / ICRH RF Heating      │
+                │     (PHA – RF/ICRH)          │
                 └──────────────┬──────────────┘
                                ▼
                 ┌──────────────────────────────┐
-                │ Capacitive Pulse Compression │
-                │     System (Theta‑Pinch)     │
+                │ Magnetic Steering System     │
+                │        (MSS – CRT Logic)     │
+                └──────────────┬──────────────┘
+                               ▼
+                ┌──────────────────────────────┐
+                │ Compression & Pulse Control  │
+                │   System (CPCS – Theta‑Pinch)│
                 └──────────────┬──────────────┘
                                ▼
                 ┌──────────────────────────────┐
                 │   Magnetic Nozzle Assembly   │
-                │     (Divergent Field)        │
+                │     (MNA – Divergent Field)  │
                 └──────────────┬──────────────┘
                                ▼
                          Plasma Exhaust
+
