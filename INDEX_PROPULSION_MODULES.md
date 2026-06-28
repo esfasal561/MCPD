@@ -1,57 +1,56 @@
-# MCPD – Propulsion Modules Index
+# MCPD – Propulsion Modules Index (v2.0)
 
-Questa pagina raccoglie e organizza i cinque moduli fondamentali del sistema di propulsione MCPD (Magnetically Captured Plasma Drive).  
-Ogni modulo è descritto in una pagina dedicata con architettura, funzionamento passo per passo, motivazione tecnica e integrazione nel sistema.
-
----
-
-## 1. MPI – Magnetic Plasma Intake
-**Funzione:** cattura e focalizza il plasma interplanetario tramite un funnel magnetico a geometria variabile.  
-**Ruolo nel sistema:** fornisce il flusso di plasma al modulo di confinamento.
-
-👉 [Vai al modulo MPI](MPI_MODULE.md)
+Questo indice raccoglie tutti i moduli principali del sistema di propulsione MCPD, organizzati secondo la pipeline fisica del plasma.
 
 ---
 
-## 2. PCC – Plasma Confinement Chamber
-**Funzione:** confina e stabilizza il plasma in una camera toroidale (mini‑tokamak).  
-**Ruolo nel sistema:** prepara il plasma per il riscaldamento RF.
-
-👉 [Vai al modulo PCC](PCC_MODULE.md)
+## 1. Magnetic Plasma Intake (MPI)
+**File:** [MPI_MODULE.md](MPI_MODULE.md)  
+Sistema di cattura e pre‑accelerazione del plasma tramite campi magnetici HTS.
 
 ---
 
-## 3. PHA – RF Heating Assembly (ECRH/ICRH)
-**Funzione:** riscalda elettroni e ioni tramite onde RF, portando il plasma a decine/centinaia di eV.  
-**Ruolo nel sistema:** porta il plasma allo stato energetico necessario per la compressione impulsiva.
-
-👉 [Vai al modulo PHA](PHA_MODULE.md)
+## 2. Plasma Confinement Core (PCC)
+**File:** [PCC_MODULE.md](PCC_MODULE.md)  
+Tokamak lineare per confinamento magnetico del plasma ad alta densità.
 
 ---
 
-## 4. CPCS – Capacitive Pulse Compression System
-**Funzione:** genera impulsi magnetici ad altissimo dB/dt tramite scariche ultrarapide in una bobina theta‑pinch.  
-**Ruolo nel sistema:** comprime il plasma radialmente, aumentando pressione e temperatura.
-
-👉 [Vai al modulo CPCS](CPCS_MODULE.md)
+## 3. Plasma Heating Assembly (PHA)
+**File:** [PHA_MODULE.md](PHA_MODULE.md)  
+Riscaldamento RF/ICRH per portare il plasma a temperature di fusione.
 
 ---
 
-## 5. MNA – Magnetic Nozzle Assembly
-**Funzione:** converte l’energia del plasma compresso in velocità di getto tramite un ugello magnetico divergente.  
-**Ruolo nel sistema:** produce la spinta lineare continua.
-
-👉 [Vai al modulo MNA](MNA_MODULE.md)
+## 4. Magnetic Steering System (MSS)
+**File:** [MAGNETIC_STEERING_SYSTEM_MSS.md](MAGNETIC_STEERING_SYSTEM_MSS.md)  
+Modulo di deflessione magnetica fine per stabilizzare e centrare il plasma prima della compressione.
 
 ---
 
-## Sequenza Operativa del Sistema MCPD
-MPI → PCC → PHA → CPCS → MNA  
-Cattura → Confinamento → Riscaldamento → Compressione → Spinta
+## 5. Compression & Pulse Control System (CPCS)
+**File:** [CPCS_MODULE.md](CPCS_MODULE.md)  
+Sistema di compressione magnetica (Theta‑Pinch) e controllo degli impulsi.
 
 ---
 
-## Scopo di questa sezione
-Questa pagina funge da indice tecnico per la documentazione del sistema di propulsione MCPD.  
-Ogni modulo è progettato per essere consultato singolarmente o come parte della sequenza completa.
+## 6. Magnetic Nozzle Assembly (MNA)
+**File:** [MNA_MODULE.md](MNA_MODULE.md)  
+Ugello magnetico divergente per la conversione del plasma in spinta utile.
+
+---
+
+## Pipeline del Plasma (Ordine Operativo)
+1. MPI →  
+2. PCC →  
+3. PHA →  
+4. **MSS** →  
+5. CPCS →  
+6. MNA →  
+7. Exhaust
+
+---
+
+## Note
+Questo indice è aggiornato alla versione **MCPD v2.0**, con integrazione del nuovo modulo **MSS**.
 
