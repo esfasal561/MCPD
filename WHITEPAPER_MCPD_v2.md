@@ -118,6 +118,62 @@ L’introduzione del FM‑DYN abilita:
 - miglioramento dell’efficienza complessiva del motore.
 
 </div>
+---
+
+<div style="background:#0d0d0d; padding:25px; border-radius:10px; color:#e6e6e6;">
+
+## 4.1.2 Geometria del Funnel Magnetico Dinamico (FM‑DYN)
+
+### **Struttura Generale**
+La geometria del funnel magnetico dinamico è progettata per massimizzare la cattura del plasma interplanetario e convogliarlo verso la PCC con il minimo livello di dispersione.  
+Il funnel presenta una forma **conico‑parabolica**, ottimizzata per guidare il flusso magnetizzato verso il collo centrale.
+
+---
+
+### **Regioni Funzionali del Funnel**
+
+#### **1. Zona di Espansione (Outer Capture Zone)**
+- Campo magnetico debole ma molto esteso.  
+- Amplificazione tramite RMF → correnti indotte nel plasma esterno.  
+- Diametro effettivo superiore alla geometria fisica delle bobine.  
+- Funzione: intercettare il plasma a bassa densità.
+
+#### **2. Zona di Convergenza (Magnetic Compression Zone)**
+- Gradiente magnetico crescente.  
+- Linee di campo che si incurvano verso il centro.  
+- Riduzione della sezione del funnel.  
+- Funzione: aumentare la densità del plasma di 10–100×.
+
+#### **3. Collo del Funnel (Neck Region)**
+- Campo magnetico più intenso e stabile.  
+- Geometria stretta e controllata.  
+- Minimizzazione delle instabilità MHD.  
+- Funzione: trasferire il plasma alla PCC con densità uniforme.
+
+---
+
+### **Geometria Dinamica**
+Grazie ai campi RMF, la geometria del funnel non è statica ma **si adatta dinamicamente** alle condizioni del plasma esterno:
+
+- espansione automatica in zone a bassa densità,  
+- compressione in zone ad alta densità,  
+- stabilizzazione del flusso tramite correnti indotte,  
+- riduzione delle perdite laterali.
+
+Questa adattività rende il FM‑DYN superiore ai funnel magnetici tradizionali.
+
+---
+
+### **Benefici della Geometria FM‑DYN**
+- **Maggiore efficienza di cattura** del plasma interplanetario.  
+- **Riduzione del consumo energetico** del modulo MPI.  
+- **Flusso più stabile** verso la PCC.  
+- **Compatibilità con bobine HTS** e sistemi RMF.  
+- **Scalabilità** per versioni future del MCPD.
+
+</div>
+
+---
 
 ---
 
