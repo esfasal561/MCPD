@@ -1,13 +1,16 @@
-# MCPD Architecture Diagram (v2.0 – with MSS)
+# MCPD – Pipeline Estesa (v2.0)
 
+                Plasma Ambientale (Vento Solare)
+                               │
+                               ▼
                 ┌──────────────────────────────┐
-                │   Magnetic Plasma Intake     │
-                │        (MPI – HTS)           │
+                │ Magnetic Plasma Intake (MPI) │
+                │  Raccolta ∝ Velocità         │
                 └──────────────┬──────────────┘
                                ▼
                 ┌──────────────────────────────┐
                 │ Plasma Confinement Core      │
-                │     (PCC – Tokamak)          │
+                │        (PCC – Tokamak)       │
                 └──────────────┬──────────────┘
                                ▼
                 ┌──────────────────────────────┐
@@ -31,4 +34,19 @@
                 └──────────────┬──────────────┘
                                ▼
                          Plasma Exhaust
+
+---
+
+## Nota Fondativa
+La raccolta del plasma nel modulo MPI aumenta linearmente con la velocità del vettore:
+
+
+
+\[
+\dot{m} \propto v
+\]
+
+
+
+Questo principio rende l’intera pipeline un sistema di accelerazione auto‑rinforzante.
 
