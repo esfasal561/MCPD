@@ -1,24 +1,50 @@
-# MPI – Magnetic Plasma Intake
+# Magnetic Plasma Intake (MPI)
+## Modulo di Raccolta Magnetica del Plasma
 
-## Architettura
-- Funnel magnetico a geometria variabile  
-- Bobine HTS (High‑Temperature Superconductors)  
-- Collo magnetico di cattura  
-- Sensori MHD per stabilità del flusso  
-- Struttura composita termicamente isolata  
+Il Magnetic Plasma Intake (MPI) è il primo modulo della pipeline MCPD.  
+Utilizza campi magnetici HTS (High‑Temperature Superconductors) per catturare il plasma del vento solare e convogliarlo verso il Plasma Confinement Core (PCC).
 
-## Funzionamento passo per passo
-1. Le bobine HTS generano un campo magnetico a forma di imbuto.  
-2. Il vento solare entra nella regione di cattura.  
-3. Le linee di campo guidano gli ioni verso l’asse centrale.  
-4. La densità del plasma aumenta da 1× a 10–100×.  
-5. Il flusso viene convogliato nel collo magnetico.  
-6. Il plasma stabilizzato entra nella PCC.
+---
 
-## Motivazione tecnica
-- Catturare plasma interplanetario → niente propellente da trasportare.  
-- Aumentare la densità → rendere il plasma utilizzabile.  
-- Stabilizzare il flusso → ridurre turbolenze e perdite.
+## Principio Fondativo Applicato al MPI
 
-## Integrazione nel sistema MCPD
-MPI → PCC  
+La massa di plasma intercettata dal MPI aumenta in modo direttamente proporzionale alla velocità del vettore:
+
+
+
+\[
+\dot{m} = \rho \cdot A \cdot v
+\]
+
+
+
+dove:
+
+- \(\rho\) = densità del plasma del vento solare  
+- \(A\) = area efficace del campo magnetico del MPI  
+- \(v\) = velocità del veicolo  
+
+Da cui deriva:
+
+
+
+\[
+\dot{m} \propto v
+\]
+
+
+
+Questo rende il MPI un sistema di raccolta dinamica:  
+più il veicolo accelera, più plasma intercetta, aumentando l’efficienza complessiva del MCPD.
+
+---
+
+## Funzioni del MPI
+
+- cattura del plasma ambientale  
+- pre‑accelerazione magnetica  
+- convogliamento verso il PCC  
+- stabilizzazione del flusso  
+- aumento dell’efficienza con la velocità  
+
+Il MPI è il punto di ingresso del plasma nella pipeline MCPD e il modulo che abilita la natura “ramjet magnetica” del sistema.
