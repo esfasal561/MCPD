@@ -55,6 +55,72 @@ Principio tecnico:
 - Funnel magnetico con HTS.  
 - Gradiente magnetico controllato.  
 - Aumento densità 10–100×.
+---
+
+<div style="background:#0d0d0d; padding:25px; border-radius:10px; color:#e6e6e6;">
+
+## 4.1.1 Funnel Magnetico Dinamico – RMF‑Enhanced Plasma Capture
+
+### **Overview del Concetto**
+Il *Funnel Magnetico Dinamico* (FM‑DYN) è un’estensione avanzata del modulo MPI.  
+Utilizza **campi magnetici rotanti (RMF)** per generare **correnti indotte nel plasma esterno**, amplificando il campo magnetico primario e creando una struttura di cattura più estesa ed efficiente.
+
+Questo permette di ottenere un funnel magnetico **più grande della geometria fisica delle bobine**, aumentando la quantità di plasma catturato e riducendo le perdite laterali.
+
+---
+
+### **Principio di Funzionamento**
+
+#### **1. Generazione del Campo Base**
+Le bobine HTS del MPI creano un campo magnetico conico orientato verso la direzione di avanzamento.  
+Questo è il funnel primario.
+
+#### **2. Applicazione del Rotating Magnetic Field (RMF)**
+Un set di bobine RMF genera un campo magnetico rotante.  
+L’interazione RMF–plasma induce **correnti toroidali** nel plasma esterno.
+
+Queste correnti generano un campo magnetico secondario che:
+- amplifica il campo base,
+- ne estende la geometria,
+- stabilizza il flusso di cattura.
+
+#### **3. Formazione del Funnel Magnetico Dinamico**
+Il plasma esterno diventa parte attiva della struttura magnetica, creando un funnel:
+- più largo in ingresso,
+- più stretto nel collo,
+- più stabile,
+- con maggiore densità di particelle convogliate verso la PCC.
+
+---
+
+### **Benefici Tecnici**
+
+- **Aumento dell’area di cattura:** funnel più grande della bobina fisica.  
+- **Riduzione della potenza richiesta:** correnti indotte sostengono parte del campo.  
+- **Stabilizzazione del flusso:** riduzione instabilità MHD.  
+- **Compatibilità totale:** si integra con MPI → PCC → PHA → CPCS → MNA.
+
+---
+
+### **Considerazioni Energetiche**
+Il FM‑DYN richiede:
+- potenza moderata (ordine dei kW),
+- controllo fine della frequenza RMF,
+- sincronizzazione con il campo base del MPI.
+
+---
+
+### **Implicazioni per la Roadmap MCPD**
+L’introduzione del FM‑DYN abilita:
+- funnel magnetici più efficienti,
+- moduli di cattura scalabili,
+- maggiore densità di plasma nella PCC,
+- miglioramento dell’efficienza complessiva del motore.
+
+</div>
+
+---
+
 
 ### Plasma Confinement Chamber (PCC)
 Perché esiste: stabilizza il plasma catturato, che è turbolento e instabile.
