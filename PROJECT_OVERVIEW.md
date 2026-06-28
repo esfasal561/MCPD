@@ -1,32 +1,12 @@
-# MCPD – Project Overview
+## Principio Fondativo MCPD – Raccolta Proporzionale del Plasma
 
-## Mission
-Develop an open, modular, and scientifically grounded concept for a hybrid nuclear–plasma propulsion system capable of capturing and accelerating interplanetary plasma to achieve high specific impulse and continuous thrust.
+Il MCPD si basa su un principio fisico fondamentale: la quantità di plasma intercettata dal Magnetic Plasma Intake (MPI) aumenta in modo direttamente proporzionale alla velocità del vettore.  
+Questo significa che ogni incremento di velocità, ottenuto tramite propulsione primaria (razzo nucleare) o tramite il MCPD stesso, aumenta la massa di plasma disponibile per la successiva espulsione.
 
-## Vision
-Enable fast interplanetary travel through a propulsion architecture that reduces propellant mass, increases Δv margins, and leverages naturally available plasma in the heliosphere.
+Ne deriva un ciclo di accelerazione auto‑rinforzante:
 
-## Core Idea
-The MCPD combines:
-- A nuclear thermal kick stage for initial Δv
-- A magnetic plasma intake to collect solar wind
-- A toroidal confinement chamber for stabilization
-- RF heating (ECRH/ICRH)
-- A capacitive pulse compression system (theta‑pinch)
-- A magnetic nozzle for efficient plasma detachment
+- maggiore velocità → maggiore raccolta di plasma  
+- maggiore raccolta → maggiore spinta  
+- maggiore spinta → ulteriore aumento di velocità  
 
-## Why It Matters
-- Reduces propellant dependency  
-- Enables long-duration missions  
-- Scales from probes to crewed vehicles  
-- Bridges nuclear thermal and electric propulsion  
-
-## Current Status
-- White paper v1.0 completed  
-- Architecture diagram published  
-- Technical roadmap defined  
-
-## Next Steps
-- Analytical modeling  
-- MHD simulations  
-- Bench-scale prototype components  
+Il razzo nucleare ha il solo compito di portare il veicolo nel regime in cui la raccolta del plasma diventa significativa; da quel punto in avanti, il MCPD può sostenere e incrementare autonomamente la spinta.
