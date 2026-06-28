@@ -1,96 +1,36 @@
-# MCPD – Magnetically Captured Plasma Drive
-### Hybrid Nuclear–Plasma Propulsion Concept
+## 2.1 Principio Fondativo MCPD – Raccolta Proporzionale del Plasma
 
-## 1. Introduction
-The MCPD concept proposes a hybrid propulsion architecture combining:
-- A nuclear thermal kick stage (NTR)
-- A high‑efficiency plasma engine capable of capturing and accelerating interplanetary plasma
+Il MCPD opera come un sistema di raccolta dinamica del plasma del vento solare.  
+La massa di particelle intercettate dal Magnetic Plasma Intake (MPI) è proporzionale alla velocità del vettore:
 
-The objective is to drastically reduce propellant mass while enabling continuous thrust and high cumulative Δv for interplanetary missions.
 
----
 
-## 2. System Overview
-The MCPD engine consists of five primary subsystems:
+\[
+\dot{m} = \rho \cdot A \cdot v
+\]
 
-### 2.1 Magnetic Plasma Intake (MPI)
-A superconducting magnetic funnel designed to:
-- Capture solar wind and interplanetary plasma
-- Pre‑compress charged particles
-- Feed them into the confinement chamber
 
-Uses HTS (High‑Temperature Superconductors) operating at 20–30 K.
 
-### 2.2 Plasma Confinement Chamber (PCC)
-Toroidal chamber with:
-- Magnetic mirror stabilization
-- MHD turbulence suppression
-- Controlled particle density
+dove \(\rho\) è la densità del plasma, \(A\) l’area efficace del campo magnetico, e \(v\) la velocità del veicolo.  
+Da questa relazione segue direttamente:
 
-### 2.3 Plasma Heating Assembly (PHA)
-RF heating via:
-- ECRH (Electron Cyclotron Resonance Heating)
-- ICRH (Ion Cyclotron Resonance Heating)
 
-Target plasma temperature: **5–10 keV**
 
-### 2.4 Capacitive Pulse Compression System (CPCS)
-Provides theta‑pinch acceleration:
-- Rapid magnetic compression
-- High‑density plasma pulse formation
-- Efficient energy transfer to the magnetic nozzle
+\[
+\dot{m} \propto v
+\]
 
-### 2.5 Magnetic Nozzle Assembly (MNA)
-Divergent magnetic nozzle enabling:
-- Plasma detachment
-- High‑Isp exhaust
-- Stable thrust vectoring
 
----
 
-## 3. Performance Estimates
-- **Isp:** ~5,000 s  
-- **Continuous thrust:** 25–50 N per unit  
-- **Cumulative Δv:** 10–15 km/s in 60–90 days  
-- **Earth–Mars transfer:** 3–5 months  
+Ogni incremento di velocità aumenta la massa di plasma disponibile per la successiva espulsione magnetica, generando un ciclo di accelerazione auto‑rinforzante:
 
----
 
-## 4. Mission Profile
-### 4.1 Initial Kick Stage (NTR)
-Provides 2–3 km/s to escape low orbit.
 
-### 4.2 MCPD Cruise Phase
-Continuous high‑Isp thrust:
-- Efficient long‑duration acceleration
-- Minimal propellant mass
-- High Δv accumulation
+\[
+v \uparrow \Rightarrow \dot{m} \uparrow \Rightarrow F_{\text{MCPD}} \uparrow \Rightarrow v \uparrow
+\]
 
-### 4.3 Arrival Phase
-Large Δv margin for:
-- Braking
-- Orbital insertion
-- Surface mission support
 
----
 
-## 5. Advantages
-- Drastically reduced propellant mass  
-- Continuous thrust capability  
-- High Δv accumulation  
-- Scalable architecture  
-- Suitable for deep‑space missions  
-
----
-
-## 6. Applications
-- Earth–Mars transport  
-- Outer planet probes  
-- Fast cargo delivery  
-- Deep‑space exploration  
-
----
-
-## 7. Author
-**Salvatore**  
-Independent researcher and proponent of the MCPD concept.
+Il razzo nucleare non è il motore principale del sistema: la sua funzione è esclusivamente quella di portare il veicolo nel regime di velocità in cui la raccolta del plasma diventa significativa.  
+Una volta raggiunta tale soglia, il MCPD può sostenere e incrementare autonomamente la spinta, comportandosi come un plasma‑ramjet magnetico ad efficienza crescente.
