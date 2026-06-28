@@ -1,10 +1,8 @@
-# Plasma Heating Assembly (PHA)
-## Modulo di Riscaldamento RF/ICRH del Plasma
+# PHA – RF Heating Assembly (ECRH/ICRH)
+## Plasma Heating Assembly del MCPD
 
 Il Plasma Heating Assembly (PHA) è il modulo responsabile dell’aumento dell’energia termica del plasma confinato nel PCC.  
-Utilizza sistemi RF (Radio Frequency) e ICRH (Ion Cyclotron Resonance Heating) per portare il plasma a temperature elevate, migliorando l’efficienza del pinch magnetico nel CPCS.
-
-Il PHA è un amplificatore energetico: trasforma il plasma ad alta densità proveniente dal PCC in un flusso ad alta temperatura, pronto per la compressione magnetica.
+Utilizza tecniche di riscaldamento RF (ECRH – Electron Cyclotron Resonance Heating) e ICRH (Ion Cyclotron Resonance Heating) per portare il plasma a un regime energetico utile al pinch magnetico nel CPCS.
 
 ---
 
@@ -30,7 +28,7 @@ n_{PCC} \propto \dot{m}
 
 
 
-allora l’energia termica generata dal PHA è:
+l’energia termica generata dal PHA è:
 
 
 
@@ -50,57 +48,44 @@ E_{PHA} \propto v
 
 
 
-Il PHA diventa quindi **più efficace man mano che il veicolo accelera**, perché riscalda una quantità maggiore di plasma.
+Quindi il PHA diventa **più efficace man mano che il veicolo accelera**, perché riscalda una quantità maggiore di plasma.
 
 ---
 
-## 2. Funzioni del PHA
+## 2. Architettura
 
-- riscaldamento RF del plasma confinato  
-- aumento dell’energia cinetica degli ioni  
-- preparazione del plasma per il pinch magnetico  
-- stabilizzazione termica del flusso  
-- incremento dell’efficienza del CPCS  
-
-Il PHA è il modulo che trasforma il plasma da “confinato” a “energeticamente attivo”.
+- Antenne RF direzionali  
+- GeneratorI ad alta frequenza  
+- Guide d’onda  
+- Sistema di controllo della fase  
+- Sensori di temperatura del plasma  
 
 ---
 
-## 3. Riscaldamento RF/ICRH
+## 3. Funzionamento passo per passo
 
-Il PHA utilizza due tecniche principali:
-
-### 3.1 Riscaldamento RF
-Applicazione di onde radio ad alta frequenza che trasferiscono energia agli elettroni del plasma.
-
-### 3.2 Riscaldamento ICRH
-Risonanza ciclotronica degli ioni, che permette di trasferire energia direttamente alle particelle più pesanti.
-
-Queste tecniche aumentano la temperatura del plasma fino a valori ottimali per la compressione magnetica.
+1. Le antenne emettono onde RF.  
+2. Gli elettroni assorbono energia (ECRH).  
+3. Gli ioni assorbono energia (ICRH).  
+4. La temperatura sale a decine/centinaia di eV.  
+5. La distribuzione energetica si uniforma.  
+6. Il plasma caldo viene inviato al CPCS.
 
 ---
 
-## 4. Ruolo del PHA nella Pipeline MCPD
+## 4. Motivazione tecnica
 
-Il PHA si colloca tra:
-
-- **PCC** (confinamento e densità)  
-- **MSS** (centratura magnetica)  
-- **CPCS** (compressione e pinch)  
-
-Il plasma riscaldato dal PHA è più:
-
-- energetico  
-- stabile  
-- reattivo al pinch  
-- efficiente nella conversione in spinta  
+- Il plasma catturato è troppo freddo.  
+- Serve portarlo a un regime energetico utile.  
+- Il pinch richiede plasma già caldo e denso.
 
 ---
 
-## 5. Sintesi
+## 5. Integrazione nel sistema MCPD
 
-Il PHA è un modulo critico del MCPD:  
-aumenta l’energia del plasma in modo proporzionale alla densità fornita dal PCC, che a sua volta dipende dalla velocità del vettore.
+PCC → PHA → CPCS
 
-Il PHA è quindi un **amplificatore termico dinamico**, la cui efficacia cresce con la velocità del veicolo e con la quantità di plasma raccolta dal sistema.
+Il PHA è il ponte energetico tra il confinamento (PCC) e la compressione (CPCS):  
+trasforma il plasma da “confinato” a “energeticamente attivo”, in modo coerente con il principio fondativo MCPD.
+
 
