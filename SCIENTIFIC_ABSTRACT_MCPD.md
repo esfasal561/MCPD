@@ -1,7 +1,9 @@
-# Scientific Abstract – MCPD Propulsion Concept
+# MCPD – Scientific Abstract
 
-The Magnetically Captured Plasma Drive (MCPD) is a hybrid propulsion architecture integrating a nuclear thermal kick stage with a magnetically confined plasma engine capable of capturing and accelerating interplanetary plasma. The system employs a high‑temperature superconducting magnetic intake, a toroidal confinement chamber, RF heating (ECRH/ICRH), and a theta‑pinch compression stage to energize ions prior to exhaust through a divergent magnetic nozzle.
+Il Magnetically Captured Plasma Drive (MCPD) è un sistema di propulsione spaziale che utilizza il plasma del vento solare come propellente esterno. Il motore cattura, confina, riscalda, comprime ed espelle il plasma attraverso una pipeline magnetica ad alta efficienza composta da sei moduli principali: MPI, PCC, PHA, MSS, CPCS e MNA.
 
-Preliminary analysis indicates that the MCPD can achieve specific impulses on the order of 4,000–6,000 s with continuous thrust in the 25–50 N range, enabling Earth–Mars transfers in 90–150 days depending on mission profile. The architecture reduces propellant mass requirements by leveraging naturally available heliospheric plasma.
+Il principio fondativo del sistema stabilisce che la massa di plasma intercettata dal Magnetic Plasma Intake (MPI) aumenta in modo direttamente proporzionale alla velocità del vettore. Tale relazione genera un ciclo di accelerazione auto‑rinforzante: maggiore velocità produce maggiore raccolta di plasma, che a sua volta incrementa la spinta generata dal MCPD.
 
-This document outlines the theoretical basis, subsystem interactions, expected performance envelope, and proposed research roadmap for validating the MCPD concept through analytical modeling, MHD simulations, and bench‑scale experimental components.
+La propulsione nucleare primaria ha il solo compito di portare il veicolo nel regime di velocità in cui la raccolta del plasma diventa significativa; da quel punto in avanti, il MCPD può sostenere e incrementare autonomamente la spinta.
+
+Il MCPD si configura come un plasma‑ramjet magnetico, privo di serbatoi di propellente, con efficienza crescente e potenzialmente illimitata finché il veicolo rimane immerso nel vento solare.
