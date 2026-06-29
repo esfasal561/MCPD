@@ -1,0 +1,18 @@
+main:
+  - title: "MCPD – Overview"
+    url: /PROJECT_OVERVIEW
+
+  - title: "Magnetic Plasma Intake (MPI)"
+    url: /MPI_module
+
+  - title: "Plasma Confinement Chamber (PCC)"
+    url: /pcc_Magnetic-confinement
+
+  - title: "RF Heating Assembly (PHA)"
+    url: /PHA_RF-Heathing
+
+  - title: "Capacitive Pulse Compression System (CPCS)"
+    url: /CPCS_pulse-compression
+
+  - title: "Magnetic Nozzle Assembly (MNA)"
+    url: /MNA_magnetic-nozzle
