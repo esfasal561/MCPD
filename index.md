@@ -139,6 +139,9 @@ Il **Magnetically Captured Plasma Drive (MCPD)** è un concetto di propulsione n
 
 ---
 
+<div style="text-align:center; margin-top:40px;">
+  <img src="assets/img/mcpd-vettore-doppio-8k.png" alt="Blueprint Vettore Interplanetario Doppio MCPD" style="max-width:100%; border-radius:12px; box-shadow:0 0 28px rgba(0,0,0,0.55);">
+</div>
 
 # 🚀 Navigazione MCPD
 
