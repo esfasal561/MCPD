@@ -220,4 +220,3 @@ L’obiettivo è creare un sistema propulsivo ad alta efficienza, scalabile e pr
 <div style="text-align:center; margin-top:40px; font-size:14px; color:#666;">
   © 2026 — Progetto MCPD · Salvatore Esposito Faraone  
 </div>
-
