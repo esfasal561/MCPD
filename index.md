@@ -1,17 +1,21 @@
-<!-- TWITTER CARD -->
+<!-- ========================= -->
+<!--   MCPD – TWITTER CARD     -->
+<!-- ========================= -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="MCPD – Magnetically Captured Plasma Drive">
 <meta name="twitter:description" content="Progetto di propulsione nucleare-plasmatica ideato da Salvatore Esposito Faraone.">
 <meta name="twitter:image" content="https://esfasal561.github.io/MCPD/assets/img/mcpd-cover.png">
 
-<!-- BANNER ANIMATO MCPD (6 MODULI) -->
+<!-- ========================= -->
+<!--   MCPD – BANNER ANIMATO   -->
+<!-- ========================= -->
 <div style="
   width:100%;
   padding:40px 0 32px 0;
   background:
-    radial-gradient(circle at 15% 20%, rgba(0,180,255,0.25), transparent 55%),   /* MPI */
-    radial-gradient(circle at 85% 30%, rgba(255,80,0,0.25), transparent 55%),    /* PHA */
-    radial-gradient(circle at 50% 80%, rgba(0,255,160,0.18), transparent 55%),   /* MNA */
+    radial-gradient(circle at 15% 20%, rgba(0,180,255,0.25), transparent 55%),
+    radial-gradient(circle at 85% 30%, rgba(255,80,0,0.25), transparent 55%),
+    radial-gradient(circle at 50% 80%, rgba(0,255,160,0.18), transparent 55%),
     linear-gradient(120deg, #05070a, #0d0d10, #05070a);
   background-size: 200% 200%;
   animation: plasmaFlow 12s ease-in-out infinite;
@@ -23,41 +27,39 @@
   overflow:hidden;
 ">
 
-  <!-- MSS – Magnetic Support System -->
+  <!-- MSS -->
   <div style="
     position:absolute;
     inset:0;
-    background-image:
-      repeating-linear-gradient(
-        90deg,
-        rgba(0,255,120,0.08) 0px,
-        rgba(0,255,120,0.08) 2px,
-        transparent 6px,
-        transparent 12px
-      );
+    background-image: repeating-linear-gradient(
+      90deg,
+      rgba(0,255,120,0.08) 0px,
+      rgba(0,255,120,0.08) 2px,
+      transparent 6px,
+      transparent 12px
+    );
     mix-blend-mode:screen;
     opacity:0.5;
     animation: mssOscillation 14s ease-in-out infinite;
   "></div>
 
-  <!-- PCC + MNA – Linee di campo magnetico -->
+  <!-- PCC + MNA -->
   <div style="
     position:absolute;
     inset:0;
-    background-image:
-      repeating-linear-gradient(
-        115deg,
-        rgba(0,255,200,0.08) 0px,
-        rgba(0,255,200,0.08) 1px,
-        transparent 3px,
-        transparent 7px
-      );
+    background-image: repeating-linear-gradient(
+      115deg,
+      rgba(0,255,200,0.08) 0px,
+      rgba(0,255,200,0.08) 1px,
+      transparent 3px,
+      transparent 7px
+    );
     mix-blend-mode:screen;
     opacity:0.7;
     animation: fieldLines 18s linear infinite;
   "></div>
 
-  <!-- PHA – Onde RF -->
+  <!-- PHA -->
   <div style="
     position:absolute;
     inset:0;
@@ -68,7 +70,7 @@
     animation: rfWaves 9s ease-in-out infinite;
   "></div>
 
-  <!-- CPCS – Flash di compressione -->
+  <!-- CPCS -->
   <div style="
     position:absolute;
     left:50%;
@@ -77,13 +79,12 @@
     height:220px;
     transform:translate(-50%, -50%);
     border-radius:50%;
-    background:
-      radial-gradient(circle, rgba(255,255,255,0.22) 0%, transparent 60%);
+    background: radial-gradient(circle, rgba(255,255,255,0.22) 0%, transparent 60%);
     opacity:0;
     animation: compressionFlash 7s ease-out infinite;
   "></div>
 
-  <!-- PCC – Plasma toroidale -->
+  <!-- PCC -->
   <div style="
     position:absolute;
     left:50%;
@@ -111,41 +112,21 @@
 </div>
 
 <style>
-@keyframes plasmaFlow {
-  0%   { background-position:0% 50%; }
-  50%  { background-position:100% 50%; }
-  100% { background-position:0% 50%; }
-}
-
-@keyframes fieldLines {
-  0%   { transform:translateX(0px); }
-  100% { transform:translateX(-40px); }
-}
-
-@keyframes rfWaves {
-  0%   { opacity:0.25; transform:scale(1); }
-  50%  { opacity:0.7;  transform:scale(1.05); }
-  100% { opacity:0.25; transform:scale(1); }
-}
-
-@keyframes compressionFlash {
-  0%   { opacity:0;   transform:translate(-50%, -50%) scale(0.6); }
-  40%  { opacity:0.55; transform:translate(-50%, -50%) scale(1); }
-  100% { opacity:0;   transform:translate(-50%, -50%) scale(1.2); }
-}
-
-@keyframes torusPulse {
-  0%   { transform:translate(-50%, -50%) scale(0.95); opacity:0.8; }
-  50%  { transform:translate(-50%, -50%) scale(1.05); opacity:1; }
-  100% { transform:translate(-50%, -50%) scale(0.95); opacity:0.8; }
-}
-
-@keyframes mssOscillation {
-  0%   { opacity:0.25; }
-  50%  { opacity:0.55; }
-  100% { opacity:0.25; }
-}
+@keyframes plasmaFlow { 0%{background-position:0% 50%;} 50%{background-position:100% 50%;} 100%{background-position:0% 50%;} }
+@keyframes fieldLines { 0%{transform:translateX(0px);} 100%{transform:translateX(-40px);} }
+@keyframes rfWaves { 0%{opacity:0.25;transform:scale(1);} 50%{opacity:0.7;transform:scale(1.05);} 100%{opacity:0.25;transform:scale(1);} }
+@keyframes compressionFlash { 0%{opacity:0;transform:translate(-50%,-50%) scale(0.6);} 40%{opacity:0.55;transform:translate(-50%,-50%) scale(1);} 100%{opacity:0;transform:translate(-50%,-50%) scale(1.2);} }
+@keyframes torusPulse { 0%{transform:translate(-50%,-50%) scale(0.95);opacity:0.8;} 50%{transform:translate(-50%,-50%) scale(1.05);opacity:1;} 100%{transform:translate(-50%,-50%) scale(0.95);opacity:0.8;} }
+@keyframes mssOscillation { 0%{opacity:0.25;} 50%{opacity:0.55;} 100%{opacity:0.25;} }
 </style>
+
+---
+
+# MCPD – Magnetically Captured Plasma Drive
+### Hybrid Nuclear–Plasma Propulsion Concept
+
+Il **Magnetically Captured Plasma Drive (MCPD)** è un concetto di propulsione nucleare–plasma sviluppato da **Salvatore Esposito Faraone**, basato sulla cattura, stabilizzazione, riscaldamento e compressione del plasma tramite sistemi magnetici avanzati.
+
 ---
 
 <div style="text-align:center; margin-top:30px;">
@@ -154,24 +135,9 @@
 
 ---
 
-<div style="background-color:#0d0d0d; padding:28px; border-radius:14px; color:#e6e6e6; font-family:Consolas, monospace; font-size:16px; line-height:1.6; margin-top:35px;">
-
-# MCPD – Magnetically Captured Plasma Drive  
-### Hybrid Nuclear–Plasma Propulsion Concept
-
-Il **Magnetically Captured Plasma Drive (MCPD)** è un concetto di propulsione nucleare–plasma sviluppato da **Salvatore Esposito Faraone**, basato sulla cattura, stabilizzazione, riscaldamento e compressione del plasma tramite sistemi magnetici avanzati.
-
-L’obiettivo è creare un sistema propulsivo ad alta efficienza, scalabile e privo di erosione meccanica, adatto a missioni spaziali di lunga durata.
-
-</div>
-
----
 # 🚀 Navigazione MCPD
 
-<div style="background-color:#111; padding:22px; border-radius:12px;">
-
 ### 🔷 Moduli del Sistema Propulsivo
-
 - [Overview del Sistema](PROJECT_OVERVIEW.md)
 - [Magnetic Plasma Intake (MPI)](MPI_module.md)
 - [Plasma Confinement Chamber (PCC)](pcc_Magnetic-confinement.md)
@@ -180,12 +146,9 @@ L’obiettivo è creare un sistema propulsivo ad alta efficienza, scalabile e pr
 - [Magnetic Nozzle Assembly (MNA)](MNA_magnetic-nozzle.md)
 - [Magnetic Support System (MSS)](MSS_module.md)
 
-</div>
-
 ---
 
 # 📘 Documentazione Principale
-
 - [Project Overview](PROJECT_OVERVIEW.md)
 - [White Paper v2.0](WHITEPAPER_MCPD_v2.md)
 - [Scientific Abstract](SCIENTIFIC_ABSTRACT_MCPD.md)
@@ -194,7 +157,6 @@ L’obiettivo è creare un sistema propulsivo ad alta efficienza, scalabile e pr
 ---
 
 # 🧩 Architettura del Sistema
-
 - [System Architecture Diagram](MCPD_ARCHITECTURE_DIAGRAM.md)
 - [Propulsion Modules Index](INDEX_PROPULSION_MODULES.md)
 - [Plasma Dynamics & Exhaust Nozzle](PLASMA_DYNAMICS_EXHAUST_NOZZLE.md)
@@ -202,7 +164,6 @@ L’obiettivo è creare un sistema propulsivo ad alta efficienza, scalabile e pr
 ---
 
 # 🔬 Fondamenti Scientifici
-
 - [Nuclear–Plasma Hybrid Model](NUCLEAR_PLASMA_MODEL.md)
 - [Magnetic Field Topology](MAGNETIC_FIELD_TOPOLOGY.md)
 - [Fusion Heating Methods](FUSION_HEATING.md)
@@ -210,7 +171,6 @@ L’obiettivo è creare un sistema propulsivo ad alta efficienza, scalabile e pr
 ---
 
 # 🧭 Roadmap & Sviluppo
-
 - [Roadmap MCPD](ROADMAP_MCPD.md)
 - [Milestones Tecniche](MILESTONES.md)
 - [Future Research Directions](FUTURE_RESEARCH.md)
@@ -218,5 +178,5 @@ L’obiettivo è creare un sistema propulsivo ad alta efficienza, scalabile e pr
 ---
 
 <div style="text-align:center; margin-top:40px; font-size:14px; color:#666;">
-  © 2026 — Progetto MCPD · Salvatore Esposito Faraone  
+  © 2026 — Progetto MCPD · Salvatore Esposito Faraone
 </div>
