@@ -146,7 +146,6 @@
   100% { opacity:0.25; }
 }
 </style>
-
 ---
 
 <div style="text-align:center; margin-top:30px;">
@@ -167,7 +166,6 @@ L’obiettivo è creare un sistema propulsivo ad alta efficienza, scalabile e pr
 </div>
 
 ---
-
 # 🚀 Navigazione MCPD
 
 <div style="background-color:#111; padding:22px; border-radius:12px;">
