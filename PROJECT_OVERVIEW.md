@@ -1,3 +1,7 @@
+---
+title: ""
+---
+
 <div style="background-color:#0d0d0d; padding:22px; border-radius:12px; color:#e6e6e6; font-family:Consolas, monospace; font-size:15px; line-height:1.55;">
 
 # MCPD – System Overview & Architecture
@@ -36,5 +40,6 @@ Questa panoramica descrive l’architettura generale del MCPD e il flusso operat
 I dettagli tecnici completi sono disponibili nelle pagine dedicate ai singoli moduli.
 
 </div>
+
 
 
