@@ -125,6 +125,8 @@
 # MCPD – Magnetically Captured Plasma Drive
 ### Hybrid Nuclear–Plasma Propulsion Concept
 
+---
+
 Il **Magnetically Captured Plasma Drive (MCPD)** è un concetto di propulsione nucleare–plasma sviluppato da **Salvatore Esposito Faraone**, basato sulla cattura, stabilizzazione, riscaldamento e compressione del plasma tramite sistemi magnetici avanzati.
 
 ---
@@ -132,6 +134,8 @@ Il **Magnetically Captured Plasma Drive (MCPD)** è un concetto di propulsione n
 <div style="text-align:center; margin-top:30px;">
   <img src="https://esfasal561.github.io/MCPD/assets/img/mcpd-cover.png" alt="MCPD Cover" style="max-width:85%; border-radius:12px; box-shadow:0 0 22px rgba(0,0,0,0.45);">
 </div>
+
+---
 
 <div style="text-align:center; margin-top:40px;">
   <img src="assets/img/mcpd-poster-8k.png" alt="MCPD Poster 8K" style="max-width:100%; border-radius:12px; box-shadow:0 0 28px rgba(0,0,0,0.55);">
@@ -141,6 +145,12 @@ Il **Magnetically Captured Plasma Drive (MCPD)** è un concetto di propulsione n
 
 <div style="text-align:center; margin-top:40px;">
   <img src="assets/img/mcpd-vettore-doppio-8k.png" alt="Blueprint Vettore Interplanetario Doppio MCPD" style="max-width:100%; border-radius:12px; box-shadow:0 0 28px rgba(0,0,0,0.55);">
+</div>
+
+---
+
+<div style="text-align:center; margin-top:40px;">
+  <img src="assets/img/Copilot_20260629_191145.png" alt="Vista Esplosa 3D Moduli MCPD" style="max-width:100%; border-radius:12px; box-shadow:0 0 28px rgba(0,0,0,0.55);">
 </div>
 
 ---
