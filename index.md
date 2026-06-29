@@ -23,7 +23,15 @@
 # MCPD – Magnetically Captured Plasma Drive  
 ### Hybrid Nuclear–Plasma Propulsion Concept
 
-## Navigazione Rapida
+
+## Navigazione MCPD
+
+- [Overview del Sistema](PROJECT_OVERVIEW.md)
+- [Magnetic Plasma Intake (MPI)](MPI_module.md)
+- [Plasma Confinement Chamber (PCC)](pcc_Magnetic-confinement.md)
+- [RF Heating Assembly (PHA)](PHA_RF-Heathing.md)
+- [Capacitive Pulse Compression System (CPCS)](CPCS_pulse-compression.md)
+- [Magnetic Nozzle Assembly (MNA)](MNA_magnetic-nozzle.md)
 
 ### 📘 Documentazione Principale
 - [Project Overview](PROJECT_OVERVIEW.md)
@@ -34,7 +42,6 @@
 ### 🚀 Architettura del Sistema
 - [System Architecture Diagram](MCPD_ARCHITECTURE_DIAGRAM.md)
 - [Propulsion Modules Index](INDEX_PROPULSION_MODULES.md)
--[Magnetic Confinement System](MAGNETIC_CONFINEMENT_SYSTEM.md)
 - [Plasma Dynamics & Exhaust Nozzle](PLASMA_DYNAMICS_EXHAUST_NOZZLE.md)
 
 ### 🔬 Fondamenti Scientifici
