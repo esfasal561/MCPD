@@ -195,8 +195,9 @@ Il **Magnetically Captured Plasma Drive (MCPD)** è un concetto di propulsione n
 
 # 🧩 Architettura del Sistema
 - [System Architecture Diagram](MCPD_ARCHITECTURE_DIAGRAM.md)
-- [Propulsion Modules Index](INDEX_PROPULSION_MODULES.md)
+- [Propulsion & Energy Modules Index](INDEX_PROPULSION_MODULES.md)
 - [Plasma Dynamics & Exhaust Nozzle](PLASMA_DYNAMICS_EXHAUST_NOZZLE.md)
+- [Nuclear Reactor Module (NRM)](NRM.html)
 
 ---
 
