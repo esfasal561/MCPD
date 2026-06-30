@@ -1,52 +1,40 @@
-# MCPD – Pipeline Estesa (v2.0)
+# MCPD Architecture Diagram (v3.0 – with NRM + FHM)
 
-                Plasma Ambientale (Vento Solare)
-                               │
-                               ▼
                 ┌──────────────────────────────┐
-                │ Magnetic Plasma Intake (MPI) │
-                │  Raccolta ∝ Velocità         │
+                │   Nuclear Reactor Module     │
+                │        (NRM – Core)          │
                 └──────────────┬──────────────┘
                                ▼
                 ┌──────────────────────────────┐
-                │ Plasma Confinement Core      │
-                │        (PCC – Tokamak)       │
+                │ Fusion Heating Mechanisms    │
+                │     (FHM – CRT/ECRH/ICRH)    │
                 └──────────────┬──────────────┘
                                ▼
                 ┌──────────────────────────────┐
-                │ Plasma Heating Assembly      │
-                │     (PHA – RF/ICRH)          │
+                │ RF Heating Assembly          │
+                │        (PHA – RF)            │
                 └──────────────┬──────────────┘
                                ▼
                 ┌──────────────────────────────┐
-                │ Magnetic Steering System     │
-                │        (MSS – CRT Logic)     │
+                │ Plasma Confinement Chamber   │
+                │     (PCC – Tokamak)          │
                 └──────────────┬──────────────┘
                                ▼
                 ┌──────────────────────────────┐
-                │ Compression & Pulse Control  │
+                │ Capacitive Pulse Compression │
                 │   System (CPCS – Theta‑Pinch)│
                 └──────────────┬──────────────┘
                                ▼
                 ┌──────────────────────────────┐
-                │   Magnetic Nozzle Assembly   │
+                │ Magnetic Nozzle Assembly     │
                 │     (MNA – Divergent Field)  │
+                └──────────────┬──────────────┘
+                               ▼
+                ┌──────────────────────────────┐
+                │ Magnetic Support System      │
+                │        (MSS – CRT Logic)     │
                 └──────────────┬──────────────┘
                                ▼
                          Plasma Exhaust
 
----
-
-## Nota Fondativa
-La raccolta del plasma nel modulo MPI aumenta linearmente con la velocità del vettore:
-
-
-
-\[
-\dot{m} \propto v
-\]
-
-
-
-Questo principio rende l’intera pipeline un sistema di accelerazione auto‑rinforzante.
 
