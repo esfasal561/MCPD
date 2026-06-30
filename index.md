@@ -215,6 +215,12 @@ Il **Magnetically Captured Plasma Drive (MCPD)** è un concetto di propulsione n
 
 ---
 
+## English Documentation
+- [MCPD vs Nuclear Fusion Propulsion](MCPD_vs_Fusion_EN.md)
+- [Comparative Diagram](MCPD_Comparative_Diagram_EN.md)
+
+---
+
 <div style="text-align:center; margin-top:40px; font-size:14px; color:#666;">
   © 2026 — Progetto MCPD · Salvatore Esposito Faraone
 </div>
