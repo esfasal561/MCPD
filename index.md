@@ -169,6 +169,22 @@ Il **Magnetically Captured Plasma Drive (MCPD)** è un concetto di propulsione n
 
 ---
 
+<div style="border:1px solid #555;padding:12px;margin:12px 0;background:#0b0b0b;color:#e0e0e0;">
+  <h3 style="margin-top:0;">Nuclear Reactor Module (NRM)</h3>
+  <p>
+    Il <strong>Nuclear Reactor Module (NRM)</strong> è la sorgente energetica primaria del MCPD.
+    Alimenta tutti i moduli magnetici, il PHA (CRT + ECRH/ICRH) e il CPCS, rendendo possibile
+    il funzionamento dell’intera pipeline propulsiva.
+  </p>
+  <p style="margin-bottom:0;">
+    <a href="NRM.html" style="color:#7fd1ff;">
+      ➜ Apri la pagina dedicata al Nuclear Reactor Module
+    </a>
+  </p>
+</div>
+
+---
+
 # 📘 Documentazione Principale
 - [Project Overview](PROJECT_OVERVIEW.md)
 - [White Paper v2.0](WHITEPAPER_MCPD_v2.md)
