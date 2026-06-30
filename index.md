@@ -165,6 +165,7 @@ Il **Magnetically Captured Plasma Drive (MCPD)** è un concetto di propulsione n
 - [Capacitive Pulse Compression System (CPCS)](CPCS_pulse-compression.md)
 - [Magnetic Nozzle Assembly (MNA)](MNA_magnetic-nozzle.md)
 - [Magnetic Support System (MSS)](MSS_module.md)
+- [Nuclear Reactor Module (NRM)](NRM.html)
 
 ---
 
