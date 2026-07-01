@@ -156,6 +156,172 @@ Il **Magnetically Captured Plasma Drive (MCPD)** è un concetto di propulsione n
 
 ---
 
+# MCPD – Technical Whitepaper
+
+## 1. Executive Summary
+- Obiettivo del MCPD
+- Visione generale del sistema a 7 stadi
+- Applicazioni: propulsione interplanetaria, deep‑space, cargo orbitale
+- Vantaggi rispetto a MPD, VASIMR, Hall thrusters
+
+## 2. Architettura del Motore
+### 2.1 Panoramica dei 7 stadi
+- MPI – Magnetic Plasma Intake
+- PCC – Plasma Confinement Chamber
+- FHM – Fusion Heating Mechanisms (ciclotrone lineare)
+- NRM – Nuclear Reactor Module
+- PHA – RF Heating Assembly
+- CPCS – Capacitive Pulse Compression System
+- MNA – Magnetic Nozzle Assembly
+- MSS – Magnetic Support Structure
+
+### 2.2 Flusso del plasma
+- Percorso energetico dal prelievo alla spinta
+- Interazione sequenziale dei moduli
+
+## 3. Fisica del Plasma
+### 3.1 Parametri fondamentali
+- densità
+- temperatura
+- beta del plasma
+- lunghezza di Debye
+- frequenze caratteristiche
+
+### 3.2 Confinamento magnetico nel PCC
+- geometria delle bobine
+- stabilità MHD
+- criteri di confinamento
+
+### 3.3 Interazione plasma–campo nel FHM
+- moto ciclotronico
+- spirale lineare
+- assorbimento RF
+
+## 4. Ciclotrone Lineare (FHM)
+### 4.1 Principio di funzionamento
+- risonanza ciclotronica
+- armoniche
+- accelerazione ionica
+
+### 4.2 Costruzione fisica
+- canale del plasma
+- bobine magnetiche
+- cavità RF
+- schermature
+- raffreddamento
+
+### 4.3 Frequenze operative (B = 5 T)
+- elettroni: 140–700 GHz
+- protoni: 76–380 MHz
+- deuterio: 38–190 MHz
+
+### 4.4 Sequenza modulare FHM‑A / FHM‑B / FHM‑C
+- pre‑ionizzazione
+- accelerazione ciclotronica
+- stabilizzazione energetica
+
+## 5. Modulo Nucleare (NRM)
+### 5.1 Concetto del mini‑reattore
+- ruolo energetico
+- sicurezza
+- schermature
+
+### 5.2 Interfaccia plasma–reattore
+- flusso termico
+- gestione radiazioni
+- materiali avanzati
+
+## 6. Riscaldamento RF (PHA)
+### 6.1 ECRH (Electrons)
+- 140–700 GHz
+- cavità millimetriche
+
+### 6.2 ICRH (Ions)
+- 38–380 MHz
+- antenne a guida d’onda
+
+### 6.3 Accoppiamento RF–plasma
+- efficienza
+- modulazione di fase
+- armoniche superiori
+
+## 7. Compressione Impulsiva (CPCS)
+### 7.1 Capacitive Pulse Compression
+- principio
+- sequenza di scarica
+- aumento densità energetica
+
+### 7.2 Integrazione con PHA
+- sincronizzazione
+- controllo temporale
+
+## 8. Ugello Magnetico (MNA)
+### 8.1 Geometria del campo
+- divergenza controllata
+- accelerazione finale
+
+### 8.2 Efficienza di spinta
+- Isp teorico
+- Isp operativo
+- confronto con MPD e VASIMR
+
+## 9. Materiali e Struttura
+### 9.1 Materiali ad alta temperatura
+- ceramiche
+- carburi
+- superleghe
+
+### 9.2 Schermature
+- termiche
+- magnetiche
+- radiative
+
+### 9.3 Raffreddamento
+- liquido
+- gas
+- radiazione
+
+## 10. Controllo e Diagnostica
+### 10.1 Sensori
+- densità
+- temperatura
+- campo magnetico
+- RF
+
+### 10.2 Sistema di controllo
+- modulazione RF
+- controllo del campo
+- stabilità del plasma
+
+## 11. Simulazioni e Modellistica
+### 11.1 MHD
+### 11.2 PIC (Particle‑In‑Cell)
+### 11.3 CFD termica
+### 11.4 Modelli di spinta
+
+## 12. Roadmap di Sviluppo
+### 12.1 Team necessario
+- fisici dei plasmi
+- fisici nucleari
+- ingegneri RF
+- ingegneri termici
+- ingegneri strutturali
+
+### 12.2 Fasi
+- Fase 1: modellistica
+- Fase 2: prototipi dei moduli
+- Fase 3: integrazione
+- Fase 4: test in vuoto
+- Fase 5: validazione orbitale
+
+## 13. Appendici
+- formule
+- parametri
+- schemi
+- glossario tecnico
+
+---
+
 # 🚀 Navigazione MCPD
 
 ### 🔷 Moduli del Sistema Propulsivo
