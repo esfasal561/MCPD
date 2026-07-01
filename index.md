@@ -365,6 +365,113 @@ Contiene formule, parametri, schemi e glossari tecnici.
 
 ---
 
+# 📚 Glossario MCPD
+
+### Plasma
+Gas ionizzato composto da elettroni e ioni, utilizzato come fluido propulsivo nel MCPD.
+
+### Confinamento Magnetico
+Tecnica che utilizza campi magnetici per mantenere il plasma stabile e lontano dalle pareti del motore.
+
+### Risonanza Ciclotronica
+Fenomeno in cui particelle cariche assorbono energia RF alla loro frequenza di rotazione attorno alle linee di campo magnetico.
+
+### ECRH (Electron Cyclotron Resonance Heating)
+Riscaldamento degli elettroni tramite onde millimetriche (140–700 GHz).
+
+### ICRH (Ion Cyclotron Resonance Heating)
+Riscaldamento degli ioni tramite onde RF (38–380 MHz).
+
+### Ciclotrone Lineare
+Acceleratore ionico integrato nel modulo FHM che aumenta l’energia del plasma lungo l’asse del motore.
+
+### CPCS (Capacitive Pulse Compression System)
+Sistema che comprime il plasma tramite impulsi capacitive ad alta energia.
+
+### MNA (Magnetic Nozzle Assembly)
+Ugello magnetico che converte energia termica e magnetica in spinta diretta.
+
+### NRM (Nuclear Reactor Module)
+Mini‑reattore che alimenta tutti i moduli del MCPD.
+
+### Isp (Specific Impulse)
+Misura dell’efficienza di un motore a razzo.
+
+---
+
+# 📑 Indice dei Capitoli MCPD
+
+1. Executive Summary  
+2. Architettura del Motore  
+3. Fisica del Plasma  
+4. Ciclotrone Lineare (FHM)  
+5. Modulo Nucleare (NRM)  
+6. Riscaldamento RF (PHA)  
+7. Compressione Impulsiva (CPCS)  
+8. Ugello Magnetico (MNA)  
+9. Materiali e Struttura  
+10. Controllo e Diagnostica  
+11. Simulazioni e Modellistica  
+12. Roadmap di Sviluppo  
+13. Appendici  
+14. Sommario Narrativo MCPD  
+15. Glossario MCPD  
+
+---
+
+# 🛰️ MCPD Architecture Overview
+
+Il MCPD è un sistema propulsivo avanzato basato su una pipeline magnetica a 7 moduli:
+
+1. **MPI** – cattura del plasma  
+2. **PCC** – confinamento magnetico  
+3. **FHM** – accelerazione ionica tramite ciclotrone lineare  
+4. **NRM** – sorgente energetica nucleare  
+5. **PHA** – riscaldamento RF multi‑armonica  
+6. **CPCS** – compressione impulsiva  
+7. **MNA** – espulsione magnetica del plasma
+
+Ogni modulo svolge una funzione specifica e contribuisce alla trasformazione del plasma da fluido freddo a getto ad altissima energia.
+
+L’architettura è progettata per:
+
+- massima efficienza energetica  
+- stabilità del plasma  
+- modularità  
+- scalabilità  
+- compatibilità con sistemi di raffreddamento avanzati  
+
+---
+
+# ⚡ Pipeline Energetica MCPD
+
+La pipeline energetica del MCPD segue una sequenza precisa:
+
+### 1. Cattura del plasma (MPI)
+Il plasma viene prelevato dall’ambiente o generato internamente.
+
+### 2. Confinamento (PCC)
+Il plasma viene stabilizzato tramite campi magnetici toroidali e solenoidali.
+
+### 3. Accelerazione ionica (FHM)
+Il ciclotrone lineare aumenta l’energia cinetica degli ioni tramite risonanza ciclotronica.
+
+### 4. Alimentazione nucleare (NRM)
+Il mini‑reattore fornisce energia ai moduli magnetici e RF.
+
+### 5. Riscaldamento RF (PHA)
+Il plasma viene portato a temperature elevate tramite ECRH e ICRH.
+
+### 6. Compressione impulsiva (CPCS)
+Impulsi capacitive aumentano densità ed energia del plasma.
+
+### 7. Espulsione magnetica (MNA)
+Il plasma viene accelerato e espulso generando spinta ad alto Isp.
+
+Questa pipeline garantisce un flusso energetico continuo, stabile e altamente efficiente.
+
+---
+
 # 🚀 Navigazione MCPD
 
 ### 🔷 Moduli del Sistema Propulsivo
