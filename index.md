@@ -322,6 +322,49 @@ Il **Magnetically Captured Plasma Drive (MCPD)** è un concetto di propulsione n
 
 ---
 
+# Sommario Narrativo MCPD – Funzione dei Capitoli 1–13
+
+## 1. Executive Summary — Perché esiste questo motore
+Introduce il MCPD spiegando obiettivi, applicazioni e vantaggi rispetto ai sistemi di propulsione esistenti.
+
+## 2. Architettura del Motore — La mappa del sistema
+Descrive la struttura generale del MCPD e i suoi 7 moduli funzionali, mostrando il percorso del plasma.
+
+## 3. Fisica del Plasma — Le regole del gioco
+Spiega i parametri fondamentali del plasma e i criteri di confinamento magnetico.
+
+## 4. Ciclotrone Lineare (FHM) — Il cuore dell’accelerazione ionica
+Dettaglia il funzionamento del ciclotrone lineare, le armoniche RF e le frequenze operative a 5 Tesla.
+
+## 5. Modulo Nucleare (NRM) — La sorgente energetica interna
+Descrive il mini‑reattore, le schermature e l’interfaccia con il flusso del plasma.
+
+## 6. Riscaldamento RF (PHA) — L’aumento energetico finale
+Spiega il riscaldamento ECRH/ICRH e le frequenze da 38 MHz a 700 GHz.
+
+## 7. Compressione Impulsiva (CPCS) — Il colpo di frusta energetico
+Descrive la compressione impulsiva che aumenta densità ed energia del plasma.
+
+## 8. Ugello Magnetico (MNA) — La spinta finale
+Spiega la geometria del campo magnetico che accelera il plasma verso l’esterno.
+
+## 9. Materiali e Struttura — Come si costruisce davvero
+Elenca materiali, schermature e sistemi di raffreddamento necessari per il motore.
+
+## 10. Controllo e Diagnostica — Il cervello del sistema
+Descrive sensori, controllo RF, regolazione del campo e stabilizzazione del plasma.
+
+## 11. Simulazioni e Modellistica — La verifica scientifica
+Spiega le simulazioni MHD, PIC, CFD e i modelli di spinta necessari.
+
+## 12. Roadmap di Sviluppo — Dal concetto al prototipo
+Elenca le figure professionali necessarie e le fasi di sviluppo del MCPD.
+
+## 13. Appendici — La cassetta degli attrezzi
+Contiene formule, parametri, schemi e glossari tecnici.
+
+---
+
 # 🚀 Navigazione MCPD
 
 ### 🔷 Moduli del Sistema Propulsivo
