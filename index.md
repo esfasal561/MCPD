@@ -367,6 +367,8 @@ Contiene formule, parametri, schemi e glossari tecnici.
 
 # 📚 Glossario MCPD
 
+---
+
 ### Plasma
 Gas ionizzato composto da elettroni e ioni, utilizzato come fluido propulsivo nel MCPD.
 
@@ -398,6 +400,28 @@ Mini‑reattore che alimenta tutti i moduli del MCPD.
 Misura dell’efficienza di un motore a razzo.
 
 ---
+
+# 📘 Indice Automatico Cliccabile (TOC)
+
+- [1. Executive Summary](#1-executive-summary)
+- [2. Architettura del Motore](#2-architettura-del-motore)
+- [3. Fisica del Plasma](#3-fisica-del-plasma)
+- [4. Ciclotrone Lineare (FHM)](#4-ciclotrone-lineare-fhm)
+- [5. Modulo Nucleare (NRM)](#5-modulo-nucleare-nrm)
+- [6. Riscaldamento RF (PHA)](#6-riscaldamento-rf-pha)
+- [7. Compressione Impulsiva (CPCS)](#7-compressione-impulsiva-cpcs)
+- [8. Ugello Magnetico (MNA)](#8-ugello-magnetico-mna)
+- [9. Materiali e Struttura](#9-materiali-e-struttura)
+- [10. Controllo e Diagnostica](#10-controllo-e-diagnostica)
+- [11. Simulazioni e Modellistica](#11-simulazioni-e-modellistica)
+- [12. Roadmap di Sviluppo](#12-roadmap-di-sviluppo)
+- [13. Appendici](#13-appendici)
+- [Sommario Narrativo MCPD](#sommario-narrativo-mcpd--funzione-dei-capitoli-113)
+- [Glossario MCPD](#-glossario-mcpd)
+- [Indice dei Capitoli MCPD](#-indice-dei-capitoli-mcpd)
+- [MCPD Architecture Overview](#️-mcpd-architecture-overview)
+- [Pipeline Energetica MCPD](#️-pipeline-energetica-mcpd)
+
 
 # 📑 Indice dei Capitoli MCPD
 
@@ -509,6 +533,8 @@ Questa pipeline garantisce un flusso energetico continuo, stabile e altamente ef
 - [Executive Summary](EXECUTIVE_SUMMARY.md)
 
 ---
+
+
 
 # 🧩 Architettura del Sistema
 - [System Architecture Diagram](MCPD_ARCHITECTURE_DIAGRAM.md)
