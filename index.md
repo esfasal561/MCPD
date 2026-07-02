@@ -156,6 +156,33 @@ Il **Magnetically Captured Plasma Drive (MCPD)** è un concetto di propulsione n
 
 ---
 
+# ⭐ Sintesi Narrativa del MCPD – Prefazione Introduttiva
+
+Il Magnetically Captured Plasma Drive (MCPD) è un concetto di propulsione avanzata che nasce da un’idea semplice ma rivoluzionaria: utilizzare il plasma presente nello spazio come propellente naturale, catturarlo magneticamente, trasformarlo, energizzarlo ed espellerlo con efficienza crescente man mano che il veicolo accelera.
+
+Il cuore del sistema è un motore a 7 stadi, ognuno dei quali svolge una funzione precisa nella trasformazione del plasma da fluido freddo e disperso a getto ad altissima energia. Il percorso inizia con il Magnetic Plasma Intake (MPI), che intercetta il plasma ambientale e lo convoglia nel motore. Da qui il flusso entra nel Plasma Confinement Chamber (PCC), dove viene stabilizzato tramite campi magnetici toroidali e solenoidali, evitando il contatto con le pareti e mantenendo una densità uniforme.
+
+Il plasma così confinato viene poi accelerato nel Fusion Heating Mechanisms (FHM), un ciclotrone lineare che sfrutta la risonanza ciclotronica per aumentare progressivamente l’energia degli ioni. Le cavità RF modulano fase e armoniche, mentre le bobine magnetiche mantengono la micro‑spirale degli ioni, permettendo un assorbimento energetico continuo e controllato.
+
+L’energia necessaria a tutto il sistema proviene dal Nuclear Reactor Module (NRM), un mini‑reattore che alimenta le cavità RF, stabilizza i campi magnetici e garantisce continuità operativa. Il plasma, già energizzato dal ciclotrone, viene ulteriormente riscaldato nel RF Heating Assembly (PHA) tramite ECRH e ICRH, raggiungendo temperature e stati energetici impossibili per un motore chimico o elettrico convenzionale.
+
+A questo punto entra in gioco il Capacitive Pulse Compression System (CPCS), che comprime il plasma tramite impulsi capacitive ad alta energia, aumentando densità e pressione interna. La compressione impulsiva è sincronizzata con il riscaldamento RF, creando un picco energetico che prepara il plasma all’espulsione finale.
+
+Il getto viene infine accelerato e collimato dal Magnetic Nozzle Assembly (MNA), un ugello magnetico che converte l’energia termica e magnetica del plasma in spinta diretta. La geometria del campo permette di ottenere un Isp teorico e operativo nettamente superiore ai motori MPD, VASIMR e Hall thrusters.
+
+L’intero sistema è sostenuto dal Magnetic Support Structure (MSS), che stabilizza i campi, riduce le turbolenze e mantiene la coerenza magnetica del motore.
+
+Il MCPD è progettato per funzionare in un ciclo di accelerazione auto‑rinforzante:
+più il veicolo accelera, più plasma intercetta; più plasma intercetta, più spinta genera; più spinta genera, più accelera.  
+Questo principio rende il MCPD ideale per missioni interplanetarie, deep‑space e cargo orbitale, dove l’efficienza cresce con la distanza e la velocità.
+
+La fisica del plasma, il confinamento magnetico, la risonanza ciclotronica, il riscaldamento RF e la compressione impulsiva sono i pilastri scientifici del sistema. Le simulazioni MHD, PIC e CFD termiche permettono di modellare il comportamento del plasma in ogni stadio, mentre la roadmap di sviluppo definisce un percorso chiaro: modellistica, prototipi, integrazione, test in vuoto e validazione orbitale.
+
+Il MCPD non è solo un motore: è una visione.
+Una nuova architettura di propulsione che unisce plasma, magnetismo e energia nucleare in un sistema coerente, modulare e scalabile, progettato per portare l’ingegneria spaziale oltre i limiti dei motori convenzionali.
+
+---
+
 # MCPD – Technical Whitepaper
 
 ## 1. Executive Summary
