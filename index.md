@@ -163,12 +163,6 @@ Il **Magnetically Captured Plasma Drive (MCPD)** è un concetto di propulsione n
 
 ---
 
-<div style="text-align:center; margin-top:40px;">
-  <img src="assets/img/Copilot_20260629_191145.png" alt="Vista Esplosa 3D Moduli MCPD" style="max-width:100%; border-radius:12px; box-shadow:0 0 28px rgba(0,0,0,0.55);">
-</div>
-
----
-
 # ⭐ Sintesi Narrativa del MCPD – Prefazione Introduttiva
 
 Il Magnetically Captured Plasma Drive (MCPD) è un concetto di propulsione avanzata che nasce da un’idea semplice ma rivoluzionaria: utilizzare il plasma presente nello spazio come propellente naturale, catturarlo magneticamente, trasformarlo, energizzarlo ed espellerlo con efficienza crescente man mano che il veicolo accelera.
