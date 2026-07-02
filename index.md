@@ -137,6 +137,19 @@ Il **Magnetically Captured Plasma Drive (MCPD)** è un concetto di propulsione n
 
 ---
 
+<!-- Immagine: Campo magnetico conico dell’intake MCPD -->
+<div style="text-align:center; margin-top:40px;">
+  <img src="assets/img/mcpd-intake-conico.png"
+       alt="Campo magnetico conico dell’intake MCPD"
+       style="max-width:100%; border-radius:12px; box-shadow:0 0 28px rgba(0,0,0,0.55);">
+  <p style="color:#ccc; font-size:0.9em; margin-top:10px;">
+    <strong>Figura — Campo magnetico conico dell’intake MCPD</strong><br>
+    Il campo magnetico si apre a cono davanti alla prua e converge nella parte stretta dell’intake, dove il plasma viene catturato.
+  </p>
+</div>
+
+---
+
 <div style="text-align:center; margin-top:40px;">
   <img src="assets/img/mcpd-poster-7stage.png" alt="MCPD Poster – 7 Stage Nuclear Integration" style="max-width:100%; border-radius:12px; box-shadow:0 0 28px rgba(0,0,0,0.55);">
 </div>
